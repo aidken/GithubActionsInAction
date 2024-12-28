@@ -4,12 +4,11 @@ on:
   push:
     branches: 
       - main
-
   workflow_dispatch:
 
 jobs:
-  my_first_job:
-    runs_on: ubuntu-latest
+  myfirstjob:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "👋 Hello world from my first workflow!"
 
